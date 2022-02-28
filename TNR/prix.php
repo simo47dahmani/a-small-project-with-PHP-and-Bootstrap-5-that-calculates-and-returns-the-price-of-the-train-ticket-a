@@ -418,7 +418,7 @@
                     if (is_null($tarrif_V)) {
                         echo '<div class="col-12  bg-danger w-100 text-white text-center text-bold mt-5 fs-2"> Veuillez revoir les données entrées dans cette page <a href="index.html" class="text-warning"/>page tarrif</a></div>';
                     }else {
-                        echo $tarrif_V;
+                        echo '<div class="col-12  bg-success w-100 text-white text-center text-bold mt-5 fs-2"> le prix de votre billet est '. $tarrif_V . ' DH </div>';
                     }
                 }
 
